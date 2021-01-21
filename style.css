@@ -1,0 +1,346 @@
+.nav-link {
+    display:flex;
+    color: white !important;
+    font-family: Copperplate !important;
+    font-size: 20px;
+    padding:20px;
+  
+  }
+.nav-link a{
+  justify-content: center;
+}
+.navbar.bg-light {
+    background-color: black !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+
+  }
+.navbar-light .navbar-toggler{
+  color:aliceblue !important;
+  border-color: white !important;
+}
+
+.navbar-collapse a{
+  display: flex;
+  text-align: center; 
+}
+
+.navbar-nav .dropdown-menu{
+  color: white !important;
+  font-family: Copperplate !important;
+  font-size: 15px;
+}
+
+.dropdown-menu a{
+  color:white !important;
+  font-size: 20px;
+  font-family: Copperplate;
+}
+
+.nav .nav-pills ul{
+  justify-content: center;
+  text-align: center;
+}
+
+.collapse{
+  justify-content: center;
+}
+
+.p-4{
+  background-color: #dbcfb6;
+  margin-top: 20px;
+}
+
+.pagination{
+    color:black;
+    margin-top: 15px;
+}
+
+.logo {
+    display:flex;
+    text-align: center;
+    font-family:cursive;
+    font-family: bold;
+    font-size:70px;   
+    justify-content: center;
+    text-decoration-line: underline;
+    color: black;
+  }
+  
+.tabla {
+    text-align: center;
+    border: white 5px solid;
+    line-height: 1.6;
+    font-family: Copperplate; 
+    background-color: #ede1be;
+    height: 200px; width:700px;
+  }
+  
+.tabla2 {
+    text-align: center;
+    border: white 5px solid;
+    line-height: 1.6;
+    font-family: Copperplate;
+    background-color: #ede1be;
+    height: 200px; width:700px;
+  }
+
+.rotulos {
+    font-size: 20px;
+    color: black;
+  }
+
+.fotos {
+    margin-top: 24px;
+  }
+
+.foto {
+    margin-top: 52px;
+  }
+
+.mapa{
+    text-align: center;
+    padding-top:  30px;
+  }
+  
+.col-sm-12{
+    display:flex;
+    margin-top:20px; 
+    line-height: 40px;
+    font-size: 20px;
+    font-family: Copperplate;
+    padding:20px;
+    padding-top: 20px;
+    color:white;
+    background-color: #d1c7b0;
+  }
+  .container{
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+
+  .col-sm-12{
+    background-color: #d1c7b0;
+    width:40px;
+    margin-top: 40px;
+  }
+
+  .col-sm-10{
+    justify-content: center;
+    margin-left: 50px;
+   
+    
+  }
+#Indicator{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  
+  }
+  
+.flechas{
+    display:flex;
+    justify-content: flex;
+  }
+.footer{
+    display: flex;
+    list-style-image: url("instagramlogo.png");
+    color:black;
+    font-family: Copperplate;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 15px;   
+    padding-left: 10px;  
+  }
+  
+  .redes{
+    display:flex;
+    color:black;
+    font-family: Copperplate;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+  .formulario{
+    display:flex;
+    font-family: Copperplate;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 100px;
+    padding:20px;
+    text-align: justify;
+    font-weight: bolder;
+  }
+
+  
+  .rellenar:hover{
+   width:300px;
+   height: 50px;
+  }
+
+  .form-group{
+    padding:5px;
+  }
+  
+  .info{
+  
+    color: black;
+    font-size:30px;
+    font-family:letra;
+    font-weight: bold;
+  }
+ 
+
+li{
+    position: relative;  
+  }
+  
+  li > ul {
+    position: absolute;
+    display: none;
+    background: grey;
+    width:100%;
+    
+  }
+  
+  li:hover > ul {
+    display: block;
+    width: 100%;
+    list-style: none;
+     background-color: #c9b1be;
+  
+  }
+.menu-caja{
+  background-color: black;
+}
+
+.menu-padre  li a {
+
+    display:flex;
+    text-align: center;
+     color: white;
+     font-weight: bold;
+     text-decoration: none;
+     font-size: 20px;
+     padding: 30px;
+     font-family: Copperplate;
+
+}
+
+li:hover >a{
+
+  display: block;
+  width: 100%;
+  list-style: none;
+   background-color: #c9b1be;
+}
+
+.menu-padre{
+    display: flex;
+    height: 82px;
+   background-color: black;
+   text-align: center;
+   list-style: none;
+   justify-content: center;
+ 
+}
+
+body{
+
+  background-image:
+  linear-gradient(
+   rgba(173, 151, 97, 0.9),
+    rgba(173, 151, 97, 0.9)
+  ),
+ url(campodeflores.jpg);
+ background-size: cover;
+
+
+  }
+
+  .hijo1{
+    font-size: 45px;
+  }
+  
+  .hijo1 p{
+     font-family: Copperplate;
+  }
+
+.padre2 {
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem; 
+    justify-content: center; 
+    padding: 40px 25px; 
+  }
+  
+  .direccion{
+  
+    display:flex;
+  margin-right: 200px;
+  margin-left: 200px;
+  margin-top:20px;
+  border: white 3px solid;
+  font-size: 20px;
+  font-family: Copperplate;
+  padding:1px;
+  color:white;
+  background-color: #d1c7b0;
+  justify-content: center;
+  text-align: center;
+  }
+
+ 
+  
+  .carta{
+    display: flex; 
+    flex-direction: column;
+    background: white;
+    padding: 3rem;
+    text-align: center; 
+    justify-content: space-between;
+  }
+  
+  .carta img{
+    margin-top: 25px;
+    width: 100%;
+  }
+  
+  .img-carta:hover{
+    transform: scale(1.3);
+  }
+  .padre3{
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
+    margin-top: 25px;
+  }
+  
+  .hijo3{
+    flex: 0 1 200px;
+    text-align: center;
+    margin: 0 10px;
+  }
+  
+  .hijo3 img{
+    border-radius: 50%;
+    width: 120px;
+  }
+  
+  @media (max-width: 600px){
+    .padre2 {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  .carta p{
+  
+    text-align: left;
+    display: flex;
+    padding: 1px;
+    font-size: 15px;
+    font-family: Copperplate;
+  }
+  
